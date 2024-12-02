@@ -1,7 +1,7 @@
 <script setup>
-  defineProps({
-    average: Number,
-  })
+defineProps({
+  average: Number,
+})
 </script>
 
 <template>
