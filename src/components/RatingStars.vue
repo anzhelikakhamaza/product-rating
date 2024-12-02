@@ -1,10 +1,12 @@
 <script setup>
 import { ref } from 'vue';
 
+
 const activeStar = ref(0);
 
 const rate = (rating) => {
   activeStar.value = rating;
+  this.$emit('ratingData', rating);
 };
 </script>
 

@@ -2,11 +2,12 @@
 defineProps({
   average: Number,
 })
+
 </script>
 
 <template>
   <div>
-    <h2>Average Rating: {average}</h2>
+    <h2>This product has been rated {{average}} out of 5 stars</h2>
   </div>
 </template>
 
